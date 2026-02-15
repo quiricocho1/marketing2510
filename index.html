@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing 2510 - Publicidad Exponencial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000000;
+            color: #d1d5db;
+            font-family: 'Inter', sans-serif;
+        }
+        .text-title {
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 20px rgba(59, 130, 246, 0.3);
+        }
+        .custom-scroll::-webkit-scrollbar {
+            height: 8px;
+        }
+        .custom-scroll::-webkit-scrollbar-track {
+            background: #111;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb {
+            background: #3b82f6;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-black/90 backdrop-blur-md border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex flex-col">
+                <span class="text-2xl font-bold text-white tracking-tighter">MARKETING 2510</span>
+                <span class="text-[10px] uppercase tracking-[0.2em] text-blue-500 font-semibold">Publicidad de Alto Impacto</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
+                <a href="#empresa" class="hover:text-blue-400 transition">La Empresa</a>
+                <a href="#servicios" class="hover:text-blue-400 transition">Servicios</a>
+                <a href="#trayectoria" class="hover:text-blue-400 transition">Trayectoria</a>
+                <a href="#testimonios" class="hover:text-blue-400 transition">Testimonios</a>
+                <a href="#contacto" class="hover:text-blue-400 transition text-blue-500">Contacto</a>
+            </div>
+
+            <button class="md:hidden text-white text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center text-center px-4 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-black"></div>
+        </div>
+        <div class="relative z-10">
+            <h1 class="text-5xl md:text-8xl font-black mb-6 text-title tracking-tighter uppercase">Marketing 2510</h1>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto text-gray-400 mb-10 leading-relaxed">
+                Transformamos visiones comerciales de Argentina en realidades digitales mediante estrategias de publicidad que dominan el mercado actual.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-bold transition transform hover:scale-105">
+                    Impulsar mi negocio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- La Empresa -->
+    <section id="empresa" class="py-24 bg-zinc-950">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-8 text-title uppercase">La Empresa</h2>
+                    <div class="space-y-6 text-lg leading-relaxed text-gray-400">
+                        <p>
+                            Nacimos en el corazón de la Ciudad Autonoma Buenos Aires con un propósito inquebrantable: profesionalizar la comunicación publicitaria en un ecosistema digital saturado. En Marketing 2510 entendemos que la publicidad no es solo visibilidad, es la arquitectura de la confianza entre marcas y personas.
+                        </p>
+                        <p>
+                            Nuestro enfoque se basa en la convergencia de la creatividad disruptiva y el análisis de datos riguroso. Nos ubicamos fisicamente en ECHEVERRIA 3105 Piso 10 Dpto A codigo postal 1428 Ciudad Autonoma Buenos Aires, un espacio donde diseñamos el futuro de nuestros aliados comerciales.
+                        </p>
+                        <p>
+                            Los valores que nos definen son la transparencia total, la innovación constante y el compromiso absoluto con el retorno de inversión. Nuestra misión es clara: dotar a las empresas argentinas de las herramientas más avanzadas para superar sus propios límites.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-zinc-900 p-8 rounded-2xl border border-gray-800">
+                    <h3 class="text-2xl font-bold text-white mb-6 uppercase tracking-wider italic">Nuestra Misión</h3>
+                    <p class="text-gray-400 mb-8">
+                        Liderar la transformación publicitaria mediante soluciones que integren inteligencia artificial, diseño emocional y soporte humano de excelencia, asegurando que cada cliente reciba una atención personalizada sin precedentes en el mercado nacional.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-4 border border-zinc-800 rounded-lg">
+                            <span class="block text-blue-500 font-bold text-xl mb-1">Enfoque</span>
+                            <span class="text-sm">Resultados Tangibles</span>
+                        </div>
+                        <div class="p-4 border border-zinc-800 rounded-lg">
+                            <span class="block text-blue-500 font-bold text-xl mb-1">Valores</span>
+                            <span class="text-sm">Integridad y Pasión</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-24 bg-black">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-title uppercase mb-4">Servicios Especializados</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">Soluciones publicitarias diseñadas para la era del rendimiento y la conexión digital.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Servicio 1 -->
+                <div class="bg-zinc-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-all group">
+                    <div class="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 text-blue-500 text-2xl group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4 uppercase">Publicidad Digital Integral</h3>
+                    <p class="text-gray-400 mb-6 text-sm">Ejecución de campañas multiplataforma optimizadas para conversión inmediata.</p>
+                    <ul class="text-xs space-y-2 text-gray-500">
+                        <li>- Meta Ads avanzado</li>
+                        <li>- Google Search y Display</li>
+                        <li>- Remarketing dinámico</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="bg-zinc-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-all group">
+                    <div class="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 text-blue-500 text-2xl group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4 uppercase">Estrategia de Performance</h3>
+                    <p class="text-gray-400 mb-6 text-sm">Análisis profundo de métricas para maximizar cada peso invertido en publicidad.</p>
+                    <ul class="text-xs space-y-2 text-gray-500">
+                        <li>- Auditoría de conversiones</li>
+                        <li>- Escalamiento progresivo</li>
+                        <li>- A B Testing constante</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="bg-zinc-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-all group">
+                    <div class="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 text-blue-500 text-2xl group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4 uppercase">Branding y Contenido</h3>
+                    <p class="text-gray-400 mb-6 text-sm">Construcción de identidad visual y narrativa que posiciona a su marca por encima de la competencia.</p>
+                    <ul class="text-xs space-y-2 text-gray-500">
+                        <li>- Diseño creativo estratégico</li>
+                        <li>- Copywriting persuasivo</li>
+                        <li>- Guiones para video ads</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="bg-zinc-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-all group">
+                    <div class="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 text-blue-500 text-2xl group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4 uppercase">Atención al Cliente Premium</h3>
+                    <p class="text-gray-400 mb-6 text-sm">Nuestro diferencial absoluto es el soporte humano disponible para acompañar sus proyectos.</p>
+                    <ul class="text-xs space-y-2 text-gray-500">
+                        <li>- Respuesta técnica veloz</li>
+                        <li>- Soporte vía Whatsapp Prioritario</li>
+                        <li>- Asesoría estratégica mensual</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 5 -->
+                <div class="bg-zinc-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500 transition-all group">
+                    <div class="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 text-blue-500 text-2xl group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4 uppercase">Automatización Publicitaria</h3>
+                    <p class="text-gray-400 mb-6 text-sm">Implementación de sistemas que trabajan 24 7 para captar potenciales clientes.</p>
+                    <ul class="text-xs space-y-2 text-gray-500">
+                        <li>- Embudos de venta automáticos</li>
+                        <li>- CRM Inteligente</li>
+                        <li>- Integración API Whatsapp</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trayectoria -->
+    <section id="trayectoria" class="py-24 bg-zinc-950 border-y border-zinc-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-title uppercase mb-12 text-center">Nuestra Trayectoria</h2>
+            <div class="max-w-4xl mx-auto border-l-2 border-blue-600 pl-8 space-y-12">
+                <div>
+                    <h3 class="text-2xl font-bold text-white uppercase italic">El Origen - 1 de agosto de 2021</h3>
+                    <p class="text-gray-400 mt-4 leading-relaxed">
+                        Iniciamos actividades en un contexto global desafiante, detectando una necesidad crítica en el mercado argentino: la falta de una agencia que combinara rigor tecnológico con calidez humana. Fundamos Marketing 2510 con tres computadoras y la convicción de que podíamos cambiar las reglas del juego publicitario.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-white uppercase italic">Expansión y Hitos Militares</h3>
+                    <p class="text-gray-400 mt-4 leading-relaxed">
+                        Para el año 2022, nuestra cartera de clientes se cuadruplicó. Logramos gestionar inversiones publicitarias de gran escala, alcanzando niveles de optimización que nos posicionaron como referentes en el sector de e-commerce y servicios profesionales de CABA y el Interior del país. Nuestro hito tecnológico fue el desarrollo de un algoritmo propio de pre procesado de audiencias.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-white uppercase italic">Visión al Futuro</h3>
+                    <p class="text-gray-400 mt-4 leading-relaxed">
+                        Nos proyectamos como la infraestructura publicitaria definitiva de Argentina. Nuestra visión a futuro incluye la integración total de inteligencia predictiva en cada campaña y la consolidación de nuestro departamento de Soporte y Atencion al Cliente como el estándar de oro de la industria. No solo hacemos anuncios, creamos la estabilidad económica de nuestros clientes para las próximas décadas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="py-24 bg-black overflow-hidden">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-title uppercase mb-12">Voces de Confianza</h2>
+            <div class="flex overflow-x-auto gap-8 pb-10 custom-scroll snap-x">
+                <!-- Testimonio 1 -->
+                <div class="min-w-[400px] bg-zinc-900 p-8 rounded-2xl border border-zinc-800 snap-center hover:border-blue-500 transition">
+                    <div class="flex items-center gap-6 mb-6">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente" class="w-16 h-16 rounded-full grayscale hover:grayscale-0 transition">
+                        <div>
+                            <h4 class="font-bold text-white">Ricardo Gomez</h4>
+                            <p class="text-xs text-blue-500 uppercase">Director Comercial - Logistica Sur</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 italic">El soporte técnico y la atención humana de Marketing 2510 es lo que realmente marca la diferencia. Siempre disponibles para optimizar mis campañas rápidamente.</p>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="min-w-[400px] bg-zinc-900 p-8 rounded-2xl border border-zinc-800 snap-center">
+                    <div class="flex items-center gap-6 mb-6">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente" class="w-16 h-16 rounded-full grayscale">
+                        <div>
+                            <h4 class="font-bold text-white">Mariana Costa</h4>
+                            <p class="text-xs text-blue-500 uppercase">Fundadora - Estilo Digital</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 italic">Desde que operamos con ellos nuestras ventas han escalado un trescientos por ciento. Su trayectoria y visión a futuro son admirables.</p>
+                </div>
+                <!-- Testimonio 3 -->
+                <div class="min-w-[400px] bg-zinc-900 p-8 rounded-2xl border border-zinc-800 snap-center">
+                    <div class="flex items-center gap-6 mb-6">
+                        <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Cliente" class="w-16 h-16 rounded-full grayscale">
+                        <div>
+                            <h4 class="font-bold text-white">Julian Mendez</h4>
+                            <p class="text-xs text-blue-500 uppercase">CEO - TechInnovo</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 italic">Un servicio de publicidad de alto nivel. Lo que más valoro es la transparencia en el manejo de mi inversión y la excelencia en atencion al cliente.</p>
+                </div>
+                <!-- Testimonio 4 -->
+                <div class="min-w-[400px] bg-zinc-900 p-8 rounded-2xl border border-zinc-800 snap-center">
+                    <div class="flex items-center gap-6 mb-6">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Cliente" class="w-16 h-16 rounded-full grayscale">
+                        <div>
+                            <h4 class="font-bold text-white">Florencia Diaz</h4>
+                            <p class="text-xs text-blue-500 uppercase">Gerente - Alimentos Verdes</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 italic">Excelente trato humano. Su ubicación en CABA es super accesible y siempre responden de inmediato a cualquier duda estratégica que tengamos.</p>
+                </div>
+                <!-- Testimonio 5 -->
+                <div class="min-w-[400px] bg-zinc-900 p-8 rounded-2xl border border-zinc-800 snap-center">
+                    <div class="flex items-center gap-6 mb-6">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Cliente" class="w-16 h-16 rounded-full grayscale">
+                        <div>
+                            <h4 class="font-bold text-white">Esteban Paz</h4>
+                            <p class="text-xs text-blue-500 uppercase">Dueño - Constructora Austral</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 italic">La mejor agencia de publicidad en Argentina. Cumplen lo que prometen y su suporte técnico es el mejor que he experimentado en diez años de negocio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-24 bg-zinc-950">
+        <div class="container mx-auto px-6 max-w-4xl border border-zinc-800 p-12 rounded-3xl">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-title uppercase mb-4">Hablemos</h2>
+                <p class="text-gray-400 underline decoration-blue-500 underline-offset-8">Su crecimiento comienza con un mensaje</p>
+            </div>
+            
+            <form action="#" class="grid md:grid-cols-2 gap-8">
+                <div class="flex flex-col">
+                    <label class="text-xs uppercase tracking-widest text-gray-500 mb-2">Nombre Completo</label>
+                    <input type="text" placeholder="Ej. Juan Perez" class="bg-black border border-zinc-800 p-4 rounded-lg focus:outline-none focus:border-blue-500 transition text-white">
+                </div>
+                <div class="flex flex-col">
+                    <label class="text-xs uppercase tracking-widest text-gray-500 mb-2">Email de Contacto</label>
+                    <input type="email" placeholder="email@empresa.com" class="bg-black border border-zinc-800 p-4 rounded-lg focus:outline-none focus:border-blue-500 transition text-white">
+                </div>
+                <div class="flex flex-col md:col-span-2">
+                    <label class="text-xs uppercase tracking-widest text-gray-500 mb-2">Mensaje o Requerimiento</label>
+                    <textarea rows="4" placeholder="Describa su proyecto o necesidad publicitaria" class="bg-black border border-zinc-800 p-4 rounded-lg focus:outline-none focus:border-blue-500 transition text-white"></textarea>
+                </div>
+                <div class="md:col-span-2">
+                    <button type="submit" class="w-full bg-blue-600 py-4 rounded-lg font-bold uppercase tracking-widest hover:bg-blue-700 transition transform hover:-translate-y-1">
+                        Enviar Consulta Prioritaria
+                    </button>
+                    <p class="text-[10px] text-zinc-600 mt-4 text-center">Nuestro equipo de Soporte y Atencion al Cliente le responderá en menos de sesenta minutos.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-16 border-t border-zinc-900">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-12 text-center md:text-left mb-12">
+                <div>
+                    <h5 class="text-white font-bold mb-6 italic uppercase">Marketing 2510</h5>
+                    <p class="text-sm text-gray-500 mb-4">Referentes regionales en publicidad digital estratégica y soporte técnico humano.</p>
+                    <p class="text-xs text-blue-500 font-bold tracking-tighter uppercase">Compromiso con la excelencia en argentina</p>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold mb-6 italic uppercase">Nuestra Ubicación</h5>
+                    <p class="text-sm text-gray-500">
+                        ECHEVERRIA 3105 Piso 10 Dpto A<br>
+                        1428 - CIUDAD AUTONOMA BUENOS AIRES<br>
+                        República Argentina
+                    </p>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold mb-6 italic uppercase">Canales Directos</h5>
+                    <p class="text-sm text-gray-500 mb-2">Email: contacto@marketing2510.xyz</p>
+                    <p class="text-sm text-gray-500">Teléfono: +5491160538553</p>
+                </div>
+            </div>
+            <div class="border-t border-zinc-900 pt-8 flex flex-col md:row items-center justify-between text-[10px] text-zinc-600 uppercase tracking-widest">
+                <p>&copy; 2024 Marketing 2510 - Todos los derechos reservados</p>
+                <div class="mt-4 md:mt-0 flex gap-6">
+                    <span>Estrategias de Publicidad</span>
+                    <span>Soporte al Cliente</span>
+                    <span>Trayectoria Comprobable</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
